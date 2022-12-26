@@ -10,5 +10,7 @@ Input: sample covariance matrix S, penalty parameter ρ.
 Output: the estimated precision matrix and the regularized covariance matrix.
 
 References:
+
 [1] Fu (1998) Penalized regression: the bridge versus the lasso. J. Comput. Graph. Stats.
+
 [2] Friedman, et al. (2007) Sparse inverse covariance estimation with the graphical Lasso. Biostatistics.
