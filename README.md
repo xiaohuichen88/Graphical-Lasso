@@ -15,6 +15,9 @@ We simulate an example with 50 variables and 200 observations.
 ![True precision matrix](./img/true_precmat.png?raw=true "True precision matrix")
 ![Estimated precision matrix by graphical Lasso](./img/glasso_precmat.png?raw=true "Graphical Lasso estimate")
 
+<img src="./img/true_precmat.png" alt="Alt text" title="True precision matrix">
+<img src="./img/glasso_precmat.png" alt="Alt text" title="Graphical Lasso estimate">
+
 References:
 
 [1] Fu (1998) Penalized regression: the bridge versus the lasso. J. Comput. Graph. Stats.
