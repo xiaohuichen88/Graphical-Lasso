@@ -12,8 +12,8 @@ Output: the estimated precision matrix and the regularized covariance matrix.
 Example:
 We simulate an example with 50 variables and 200 observations. Left: true precision matrix pattern. Right: estimated precision matrix pattern by graphical Lasso.
 
-![Alt text](../true_precmat.png?raw=true "True precision matrix")
-![Alt text](../glasso_precmat.png?raw=true "Graphical Lasso estimate")
+![Alt text](./true_precmat.png?raw=true "True precision matrix")
+![Alt text](./glasso_precmat.png?raw=true "Graphical Lasso estimate")
 
 References:
 
