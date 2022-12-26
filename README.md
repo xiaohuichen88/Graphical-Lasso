@@ -6,8 +6,9 @@ minimize_\Theta    tr( Theta * S ) - logdet( Theta )  + ρ * || Theta ||_1
 
 over all positive-definite and symmetric matrices Theta. S is an estimate of the covariance matrix (usually sample covariance matrix) and ρ is a regularization parameter.
 
-Input: sample covariance matrix S, penalty parameter ρ.
-Output: the estimated precision matrix and the regularized covariance matrix.
+
+<strong>Input:</strong> sample covariance matrix S, penalty parameter ρ.
+<strong>Output:</strong> the estimated precision matrix and the regularized covariance matrix.
 
 <strong>Example:</strong>
 We simulate an example with 50 variables and 200 observations.
