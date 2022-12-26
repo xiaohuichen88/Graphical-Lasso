@@ -1,25 +1,26 @@
 # Graphical-Lasso
- Matlab implementation of the graphical Lasso model for estimating sparse inverse covariance matrix (a.k.a. precision matrix)
+
+Matlab implementation of the graphical Lasso model for estimating sparse inverse covariance matrix (a.k.a. precision matrix)
 
 minimize    tr( Theta * S ) - logdet( Theta )  + ρ * || Theta ||_1
 
 over all positive-definite and symmetric matrices Theta. S is an estimate of the covariance matrix (usually sample covariance matrix) and ρ is a regularization parameter.
 
-I/O:
 Input: sample covariance matrix S, penalty parameter ρ.
 Output: the estimated precision matrix and the regularized covariance matrix.
 
-Example:
+<strong>Example:</strong>
 We simulate an example with 50 variables and 200 observations.
 
 | ![True precision matrix](./img/true_precmat.png) | 
 |:--:| 
 | *True precision matrix* |
 
+| ![glasso_precmat.png](./img/glasso_precmat.png) | 
+|:--:| 
+| *Graphical Lasso estimate* |
 
-*Graphical Lasso estimate*
-![Estimated precision matrix by graphical Lasso](./img/glasso_precmat.png?raw=true "Graphical Lasso estimate")
-References:
+<strong>References:</strong>
 
 [1] Fu (1998) Penalized regression: the bridge versus the lasso. J. Comput. Graph. Stats.
 
