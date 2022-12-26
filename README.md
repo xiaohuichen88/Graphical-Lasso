@@ -10,10 +10,10 @@ Input: sample covariance matrix S, penalty parameter ρ.
 Output: the estimated precision matrix and the regularized covariance matrix.
 
 Example:
-We simulate an example with 50 variables and 200 observations. Left: true precision matrix pattern. Right: estimated precision matrix pattern by graphical Lasso.
+We simulate an example with 50 variables and 200 observations.
 
-![Alt text](./img/true_precmat.png?raw=true "True precision matrix")
-![Alt text](./img/glasso_precmat.png?raw=true "Graphical Lasso estimate")
+![True precision matrix](./img/true_precmat.png?raw=true "True precision matrix")
+![Estimated precision matrix by graphical Lasso](./img/glasso_precmat.png?raw=true "Graphical Lasso estimate")
 
 References:
 
