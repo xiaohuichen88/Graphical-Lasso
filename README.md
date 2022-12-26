@@ -2,7 +2,7 @@
 
 Matlab implementation of the graphical Lasso model for estimating sparse inverse covariance matrix (a.k.a. precision matrix)
 
-minimize    tr( Theta * S ) - logdet( Theta )  + ρ * || Theta ||_1
+minimize_\Theta    tr( Theta * S ) - logdet( Theta )  + ρ * || Theta ||_1
 
 over all positive-definite and symmetric matrices Theta. S is an estimate of the covariance matrix (usually sample covariance matrix) and ρ is a regularization parameter.
 
