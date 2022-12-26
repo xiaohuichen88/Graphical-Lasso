@@ -12,12 +12,11 @@ Output: the estimated precision matrix and the regularized covariance matrix.
 Example:
 We simulate an example with 50 variables and 200 observations.
 
-![True precision matrix](./img/true_precmat.png?raw=true "True precision matrix")
 *True precision matrix*
+![True precision matrix](./img/true_precmat.png?raw=true "True precision matrix")
 
-![Estimated precision matrix by graphical Lasso](./img/glasso_precmat.png?raw=true "Graphical Lasso estimate")
 *Graphical Lasso estimate*
-
+![Estimated precision matrix by graphical Lasso](./img/glasso_precmat.png?raw=true "Graphical Lasso estimate")
 References:
 
 [1] Fu (1998) Penalized regression: the bridge versus the lasso. J. Comput. Graph. Stats.
